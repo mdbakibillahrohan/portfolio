@@ -1,0 +1,614 @@
+html{
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+.row{
+    width: 100%!important;
+}
+p{
+    margin: 15px;
+    
+    font-size: 14px;
+}
+
+.box-df{
+    width: 100%;
+    justify-content: center;
+}
+/* *****************************color code********************************* *************
+                                #0652DD
+                                grey-1:  #f3f1f1
+                                grey-2:  #f7f7f9
+ *****************************color code********************************* */
+
+ .content a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 15px;
+    background: #0652DD;
+    color: #ffffff;
+    border-radius: 15px;
+}
+.content a:hover{
+    text-decoration: none;
+}
+
+.def-m-p{
+    
+    padding: 70px 0px;
+}
+
+
+.card{
+    margin: 20px 0px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+.card-title{
+    margin: 0;
+    padding: 0;
+}
+.card-text{
+    margin: 10px 0px;
+}
+
+.card-body a{
+    background: none;
+    border-radius: none;
+    color: #0652DD;
+    margin-left: 0;
+    padding-left: 0;
+}
+.card-body i{
+    color: #0652DD;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+.heading .title{
+    text-align: center;
+    
+}
+.heading .title h3{
+    font-weight: bold;
+}
+
+
+/* ************************************here started writting code for content*************************************  */
+
+/* here started the header  */
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.68), rgba(0,0,0,0.68)), url("../img/Header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment:fixed ;
+   
+}
+.top-arrow{
+    position: fixed;
+    z-index: 99;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    
+}
+
+.header .nav-item{
+    font-weight: bold;
+    color: #ffffff;
+}
+.header .nav-item a{
+    color: #ffffff !important;
+    transition: 0.2s ease;
+}
+.header .nav-item a:hover{
+    font-size: 18px;
+}
+.header .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+}
+.header .center span{
+    color: #3498db;
+}
+.header .center p{
+    word-spacing: 3px;
+    font-size: 18px;
+}
+.header .center a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 15px;
+    background: #0652DD;
+    color: #ffffff;
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.header .center a:hover{
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 15px;
+    background: #ffffff;
+    color: #0652DD;
+    border-radius: 15px;
+    border: 1px solid #0652DD;
+}
+
+
+.header .center img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #ffffff;
+}
+
+/* here started the header  */
+
+/* *********here started the awesome design********* */
+.awesome-services{
+    padding-top: 25%;
+    background: #f3f1f1;
+}
+.awesome-services .title{
+    text-align: center;
+}
+.awesome-services .title> h2{
+    margin: 30px 0px;
+    padding: 0px 20%;
+}
+/* *********here ended the awesome design********* */
+
+
+/* *********here started  the designer design********* */
+
+.designer{
+    background-color: #f7f7f9;
+}
+.designer h4{
+    font-weight: bold;
+}
+.designer p{
+    margin-left: 0;
+    padding: 10px 0px;
+    
+}
+
+.designer .box{
+    width: 100%;
+    height: 40vh;
+    border: 1px dashed #d9d9db;
+    border-top-left-radius: 160px;
+    position: relative;
+    margin: 20px 0px;
+}
+
+    
+
+.designer .box .circle {
+    position: absolute;
+    top: 82%;
+    left: 4%;
+    background-color: #ffffff;
+    width: 80px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.designer .box .circle i{
+    background-color: #8b93a1;
+    color: #0652DD;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 20%
+    
+}
+.designer .box .circle svg{
+    width: 30px;
+    height: 30px;
+}
+.designer .box-df .circle svg{
+    width: 30px;
+    height: 30px;
+}
+.designer .box .box-content{
+    position: absolute;
+    top: 25px;
+    left: 153px;
+}
+
+.designer .box .box-content .box-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.designer .box .box-content .box-title h5{
+    background-color:#0652DD;
+    margin-right: 15px;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+/* here started box-df css  */
+.designer{
+    background-color: #f7f7f9;
+}
+.designer h4{
+    font-weight: bold;
+}
+.designer p{
+    margin-left: 0;
+    padding: 10px 0px;
+    
+}
+
+.designer .box-df{
+    width: 100%;
+    height: 40vh;
+    border: 1px dashed #d9d9db;
+    border-bottom-right-radius: 160px;
+    position: relative;
+}
+
+    
+
+.designer .box-df .circle {
+    position: absolute;
+    top: -18%;
+    left: 85%;
+    background-color: #ffffff;
+    width: 80px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.designer .box-df .circle i{
+    background-color: #8b93a1;
+    color: #0652DD;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 20%
+}
+.designer .box-df .box-content{
+    position: absolute;
+    top: 40px;
+    left: 140px;
+}
+
+.designer .box-df .box-content .box-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.designer .box-df .box-content .box-title h5{
+    background-color:#0652DD;
+    margin-right: 15px;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+/* here ended box-df css  */
+
+
+/* *********here ended  the designer design********* */
+
+
+/* *********here started  the client design********* */
+.client{
+    background-color: #f3f1f1;
+}
+.client .card .card-body{
+    padding: 50px 0px;
+}
+
+/* *********here ended  the client design********* */
+
+
+/* *********here started  work expertise design********* */
+.work-expertise{
+    background-color: #f7f7f9;
+}
+.work-expertise img{
+    width: 100%;
+}
+.work-expertise .heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.work-expertise .work-circle{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 50%;
+    margin: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-expertise .work-circle i{
+    font-size: 40px;
+}
+
+.work-expertise .work-circle svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+}
+
+.work-expertise .work-circle p{
+    position: absolute;
+    top: -19%;
+    left: 54%;
+    background-color: #0652DD;
+    color: #ffffff;
+    padding: 2px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+/* *********here ended  work expertise design********* */
+
+
+/* *********here started  portofolio design********* */
+.portofolio{
+    background-color: #f3f1f1;
+}
+.portofolio .title{
+    text-align: center;
+}
+.portofolio img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.portofolio .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* *********here ended  portofolio design********* */
+
+
+/* *********here started  Client Says css********* */
+.client-says{
+    background-color:#f7f7f9;
+}
+.client-says .card-body img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 10px 10px;
+    border: 3px solid #f7f7f7f9;
+}
+
+.client-says .card-body h3{
+    margin: 10px 0px;
+}
+
+.client-says .card-body p{
+    margin: 0;
+    font-size: 13px;
+}
+.client-says .card{
+    width: 286px;
+    text-align: center;
+    margin: 10px 14px;
+}
+/* *********here ended  Client Says css********* */
+
+
+
+
+
+/* *********here started  blog-post css********* */
+.blog-post{
+    background-color: #f3f1f1;
+}
+.blog-post .card-body img{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.blog-post .card-body h3{
+    margin: 10px 0px;
+    text-align: left;
+    padding: 10px 10px 0px 10px;
+    font-size: 15px;
+}
+
+.blog-post .card-body p{
+    margin: 0;
+    font-size: 13px;
+    text-align: justify;
+    padding: 5px 10px 10px 10px;
+    font-size: 12px;
+}
+.blog-post .card{
+    width: 286px;
+    text-align: center;
+    margin: 10px 14px;
+}
+.blog-post .card-body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.blog-post .blog-card-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 4px;
+}
+.blog-post .blog-card-footer a{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-size: 13px;
+    margin-right: 4px;
+}
+/* *********here ended  blog-post css********* */
+
+
+/* *********here started  contact css********* */  
+.contact{
+    background-color:#f7f7f9;
+}
+.contact .card{
+    text-align: center;
+    border: none;
+    background-color:#f7f7f9;
+    box-shadow: none;
+}
+.contact .card i{
+    color: #160909;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.contact .card .card-title{
+    margin: 10px 0px;
+}
+.contact .card .footer-card{
+    color: #0652DD;
+}
+/* *********here ended  contact css********* */
+
+
+/* *********here started the footer ******* */
+.footer{
+    margin-top: 50px;
+    padding-top: 100px;
+    background-color: #16c9f6;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.footer .content{
+    width: 100%;
+    text-align: center;
+}
+.footer .content p{
+    color:#ffffff;
+}
+.footer .content i{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.copy-right-text{
+    color: #ffffff;
+    text-align: right;
+}
+.footer-social a i{
+    font-size: 25px;
+    margin: 10px;
+    color: #fff;
+}
+/* *********here ended the footer ******* */
+
+
+
+
+
+.about-me {
+    margin-top: 500px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    
+}
+
+.about-me p{
+    text-align: justify;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.about-me .title span{
+    color: #0652DD;
+}
+.about-me .header-about-me-1{
+    background: #f7f7f9;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.work-participation-parent{
+    height: 1000px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+/* here started media query  */
+@media only screen and (max-width: 600px) {
+    .content{
+        margin-top: 300px;
+    }
+    .about-me .details2{
+        margin-top: 15px;
+    }
+
+    .work-participation-parent{
+        height: 150px;
+        text-align: center;
+
+    }
+    .designer .box .box-content {
+        top: 15px;
+        left: 95px;
+    }
+    .designer .box-df .box-content {
+        position: absolute;
+        top: 40px;
+        left: 23px;
+    }
+    .designer .box{
+        width: 300px;
+    }
+    footer{
+        display: none;
+    }
+  }
+/* here ended media query */
